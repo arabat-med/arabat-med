@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title description">
+  <title id="title">Mohammed Arabat — Software Engineer</title>
+  <desc id="description">Bannière bleu nuit : backend, full stack et Data &amp; AI, avec un motif discret de composants reliés.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1428"/>
+      <stop offset="1" stop-color="#192c46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" rx="16" fill="url(#background)"/>
+  <path d="M48 48V192" stroke="#7dd3fc" stroke-width="4"/>
+  <text x="76" y="106" fill="#f8fafc" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="46" font-weight="650">MOHAMMED ARABAT</text>
+  <text x="78" y="151" fill="#bae6fd" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="26" font-weight="500" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="78" y="188" fill="#cbd5e1" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21">Backend · Full Stack · Data &amp; AI</text>
+  <g fill="none" stroke="#7dd3fc" stroke-width="1.5" opacity="0.35">
+    <rect x="900" y="54" width="74" height="42" rx="8"/>
+    <rect x="1052" y="100" width="74" height="42" rx="8"/>
+    <rect x="900" y="148" width="74" height="42" rx="8"/>
+    <path d="M974 75H1010V121H1052M974 169H1010V121"/>
+  </g>
+  <g fill="#bae6fd" opacity="0.65">
+    <circle cx="937" cy="75" r="4"/>
+    <circle cx="1089" cy="121" r="4"/>
+    <circle cx="937" cy="169" r="4"/>
+  </g>
+</svg>
