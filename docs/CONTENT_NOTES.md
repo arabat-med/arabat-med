@@ -14,7 +14,7 @@ Ces notes accompagnent le README et conservent les points à confirmer. Elles ne
 ## Données restant [À CONFIRMER]
 
 1. **Tessi — besoin métier.** Préciser le domaine de l’application et le problème traité, sans déduire la mission des activités générales de Tessi.
-2. **V2V — origine et géographie.** Le brief mentionne un projet académique sur Strasbourg ; le README public présente un projet personnel et la démonstration actuelle utilise Bourtzwiller, Mulhouse. Le profil décrit le prototype et sa démonstration actuelle, sans attribuer une origine académique ou personnelle ni généraliser à Strasbourg.
+2. **V2V — origine et géographie.** Le brief mentionne un projet académique sur Strasbourg ; le README public présente un projet personnel et la démonstration actuelle utilise Bourtzwiller, Mulhouse. Le profil conserve une présentation générale du prototype, sans attribuer une origine académique ou personnelle ni préciser de géographie.
 3. **Preuves professionnelles.** Identifier les éventuels livrables, extraits ou documents déjà publics et attribuables personnellement. Aucun lien de dépôt professionnel ou de démonstration de mission n’est inventé.
 4. **Certifications.** Ajouter les dates et liens de vérification si disponibles. Les deux intitulés sont repris du brief sans lien d’attestation fabriqué.
 5. **Portfolio personnel.** Ajouter son URL quand elle sera identifiée et vérifiée. Les présentations des projets ne sont pas présentées comme un portfolio personnel général.
@@ -24,15 +24,15 @@ Ces notes accompagnent le README et conservent les points à confirmer. Elles ne
 - Positionnement principal : Software Engineering ; backend et full stack, complétés par Data & AI.
 - Huit rubriques, navigation interne et compétences reliées à des réalisations.
 - Bannière SVG locale et statique : bleu nuit, ardoise, bleu clair et blanc. Le texte essentiel figure également dans le Markdown.
-- Captures authentiques copiées sans modification ; provenance dans [assets/README.md](../assets/README.md).
+- Présentation textuelle générale des projets, sans capture d’écran, conformément à la demande de Mohammed Arabat. Seule la bannière locale est conservée ; voir [assets/README.md](../assets/README.md).
 - Aucun score de modèle, gain de productivité, volume d’utilisateurs ou niveau de compétence inventé.
 - Aucun statut de service web, de déploiement de production ou d’entraînement YOLO attribué au projet V2V.
 - Modifications limitées au dépôt de profil ; aucun changement des deux projets sources.
 
 ## Vérification du profil — 30 octobre 2026
 
-- Trois fichiers Markdown analysés : liens relatifs valides, sept ancres de navigation résolues et textes alternatifs présents sur les trois images du profil.
-- Deux captures PNG identiques aux sources, avec empreintes SHA-256 consignées dans les notes des assets ; SVG valide et dépourvu de contenu actif ou de ressource externe.
-- Quinze URL publiques répondent HTTP 200. LinkedIn renvoie HTTP 999 au contrôle automatisé : son URL fournie dans le brief est conservée, sans prétendre en avoir vérifié le contenu.
-- Aperçu local du Markdown inspecté dans Chrome en mode clair et sombre à 1 280 px, et sur mobile à 390 px : images chargées, ancres fonctionnelles, aucun débordement horizontal de la page. Cet aperçu ne remplace pas une vérification après publication sur GitHub.
+- Trois fichiers Markdown analysés : liens relatifs valides, sept ancres de navigation résolues et texte alternatif présent sur l’unique image du profil, la bannière.
+- Bannière SVG valide et dépourvue de contenu actif ou de ressource externe. Les deux captures de projets et leurs légendes ont été retirées du dépôt de profil.
+- Les liens publics ont été contrôlés lors de la refonte. LinkedIn renvoie HTTP 999 au contrôle automatisé : son URL fournie dans le brief est conservée, sans prétendre en avoir vérifié le contenu.
+- Aperçu initial du Markdown inspecté dans Chrome en mode clair et sombre à 1 280 px, et sur mobile à 390 px : images chargées, ancres fonctionnelles, aucun débordement horizontal de la page. L’ajustement suivant retire les captures sans changer la structure du profil. Cet aperçu ne remplace pas une vérification après publication sur GitHub.
 - `git diff --check` passé. Aucun test applicatif des projets sources relancé. La publication du profil par commit et push a été autorisée par Mohammed Arabat après validation du contenu et confirmation du caractère individuel du projet CV.

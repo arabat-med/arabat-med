@@ -84,10 +84,6 @@ Les contributions professionnelles sont décrites à partir de mon parcours. Les
 
 **Flux principal :** React → API Flask → lecture PDF/DOCX → NER et règles → JSON structuré → génération Word/PDF.
 
-![Résultat réel de l’application CV avec Camille EXEMPLE et des données fictives](assets/projects/cv-extraction.png)
-
-*Capture authentique de l’application avec un CV fictif. L’indicateur de complétude compte les rubriques remplies ; il ne mesure pas la précision NLP.*
-
 **Limites et suite possible :** pas d’OCR pour les PDF scannés ; extraction dépendante de la structure des documents ; précision NLP et compatibilité ATS non benchmarkées. Une évaluation sur un jeu indépendant de CV serait une prochaine étape. Les tests documentés valident des comportements logiciels, pas une précision générale d’extraction.
 
 ### Transports intelligents · Simulation V2V et extension vision
@@ -98,15 +94,11 @@ Les contributions professionnelles sont décrites à partir de mon parcours. Les
 - **Ma contribution :** développement de la simulation C++/Qt6. Le dépôt présente le moteur, les modèles C++/QML et une extension Python de détection, de suivi et d’export de trajectoires vidéo.
 - **Technologies :** C++17, Qt6/QML, OpenStreetMap, CMake/CTest ; Python, YOLO11n/Ultralytics, ByteTrack, OpenCV et JSONL pour l’extension.
 - **Livrables :** application de simulation, visualisation des graphes de portée, traitement vidéo hors ligne, export de trajectoires et lecture dans Qt, tests et documentation.
-- **Preuves disponibles :** [code et architecture](https://github.com/arabat-med/v2v-traffic-simulation), [guide vidéo → Qt](https://github.com/arabat-med/v2v-traffic-simulation/blob/main/vision/README.md), [captures et protocole](https://github.com/arabat-med/v2v-traffic-simulation/blob/main/docs/images/README.md), [tests C++](https://github.com/arabat-med/v2v-traffic-simulation/blob/main/tests/core_tests.cpp).
+- **Preuves disponibles :** [code et architecture](https://github.com/arabat-med/v2v-traffic-simulation), [guide vidéo → Qt](https://github.com/arabat-med/v2v-traffic-simulation/blob/main/vision/README.md), [tests C++](https://github.com/arabat-med/v2v-traffic-simulation/blob/main/tests/core_tests.cpp).
 
 **Flux de simulation :** réseau OSM → graphe routier → véhicules simulés → graphe de portée → modèles Qt/QML.
 
 **Flux vidéo :** vidéo → YOLO11n et ByteTrack → projection après calibration → fichier JSONL → lecture dans Qt.
-
-![Application Qt6/QML affichant des véhicules simulés et leurs liens de portée sur une photographie aérienne IGN de Bourtzwiller](assets/projects/v2v-simulation.png)
-
-*Capture authentique à Bourtzwiller, Mulhouse. Fond photographique © IGN ; les véhicules et les liens sont simulés, sans détection dans cette image aérienne. Les compteurs affichés ne sont pas un benchmark.*
 
 **Limites et suite possible :** les liens V2V suivent un modèle géométrique, sans échange de messages ni simulation radio physique. L’extension traite une vidéo par fichier ; la précision de projection reste à valider avec une caméra réelle et des repères indépendants. FastAPI, Docker et MLflow ne font pas partie de cette implémentation. Les tests de calibration synthétiques ne démontrent pas une précision terrain.
 
